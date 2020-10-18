@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.panel{
+    background-color: tomato;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    height: 30%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation{
+    height: 10vh;
+    color: white;
+    background-color: rgb(121, 54, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    height: 10%;
+    background-color: rgb(145, 103, 170);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
